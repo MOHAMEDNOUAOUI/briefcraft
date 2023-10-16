@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+  
+/* services */
+.TOP {
+  text-align: center;
+  font-weight: bold;
+  margin: 150px auto 100px 10px;
+  width: 50%;
+}
+
+.OurServices {
+    font-size: 50px;
+}
+
+.child {
+  background-image: url(./images/SB.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  background-attachment: fixed;
+}
+
+
+.child img {
+  transform: rotate(90deg)
+}
+
+
+
+/* icons */
+.icons3 img {
+        width: 100px;
+      }
+
+.icons3 {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 100px;
+  gap: 50px;
+}
+
+.icons3 #i1{
+  width:300px;
+  padding: 80px 0;
+  border-style: solid;
+  cursor: pointer;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 1s;
+}
+.icons3 #i1:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+      z-index: 2;
+      background-color: rgb(135,206,250);
+}
+#ititle {
+  padding-top: 10px;
+  padding-bottom: auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cya  {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 30px auto;
+  color: #0355cc;
+  margin-bottom: 100px;
+}
+
+
+/* trasnition*/
+
+
+/*service text */

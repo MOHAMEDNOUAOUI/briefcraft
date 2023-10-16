@@ -1,0 +1,17 @@
+.img-box img,.box,.box-active,header img{
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+.img-box img:hover ,.box:hover,header img:hover{
+  transform: scale(1.1);
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.nav-link{
+  transition: 1s;
+}
